@@ -12,7 +12,9 @@ $ sudo git clone https://github.com/Flink/dokku-named-containers.git /var/lib/do
 
 There’s nothing to do or configure after installing this plugin. Just start or restart your applications and their docker container will now be named like this:
 ```
-app-name.1430250203
+app-name.web.1
+app-name.web.2
+app-name.worker.1
 ```
 
 This is useful when sending logs with logspout to Papertrail for example.
