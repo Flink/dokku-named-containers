@@ -1,0 +1,4 @@
+[plugin]
+description = "names docker containers after your application name"
+version = "0.4.0"
+[plugin.config]

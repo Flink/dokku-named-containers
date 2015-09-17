@@ -4,8 +4,14 @@ dokku-named-containers is a plugin for [dokku][dokku] that names docker containe
 
 ## Installation
 
+This plugin is compatible with dokku 0.3.26 and 0.4+
+
 ```sh
+# for dokku 0.3.26
 $ sudo git clone https://github.com/Flink/dokku-named-containers.git /var/lib/dokku/plugins/named-containers
+
+# for dokku 0.4+
+$ sudo dokku plugin:install https://github.com/Flink/dokku-named-containers.git
 ```
 
 ## Usage
