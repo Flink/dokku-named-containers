@@ -1,4 +1,6 @@
-# dokku-named-containers
+# (DEPRECATED) dokku-named-containers
+
+THIS PLUGIN IS NOW DEPRECATED SINCE IT HAS BEEN INCLUDED DIRECTLY IN DOKKU
 
 dokku-named-containers is a plugin for [dokku][dokku] that names docker containers after your application name.
 
